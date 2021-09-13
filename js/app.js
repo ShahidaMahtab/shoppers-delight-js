@@ -222,7 +222,7 @@ const showProducts = (products) => {
     <div>
      <img class="product-image" src=${image}></img>
       </div>
-      <h3>${product.title.slice(0,5)}</h3>
+      <h3>${product.title.slice(0,10)}</h3>
       <p>Category: ${product.category}</p>
       <h5>rating: ${product.rating.rate} , count: ${product.rating.count}</h5>
       <h4>Price: $ ${product.price}</h4>
